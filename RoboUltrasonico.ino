@@ -97,11 +97,11 @@ void loop() {
   else if(dist<=5){
     Move('P');
     delay(500);
-    Move('F');
+    Move('R');
     delay(1000);
   }
   else{
-    Move('R');
+    Move('P');
     delay(100);
   }
 }
