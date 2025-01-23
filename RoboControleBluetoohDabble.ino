@@ -24,7 +24,6 @@ void Move(){
     digitalWrite(MEp,LOW);
     digitalWrite(MEn,HIGH);
     digitalWrite(MDn,HIGH);
-    echo();
   }
   else if (GamePad.isDownPressed())
   {
@@ -32,7 +31,6 @@ void Move(){
     digitalWrite(MEp,HIGH);
     digitalWrite(MEn,LOW);
     digitalWrite(MDn,LOW);
-    echo();
   }
   else if (GamePad.isLeftPressed())
   {
@@ -40,7 +38,6 @@ void Move(){
     digitalWrite(MEp,LOW);
     digitalWrite(MEn,HIGH);
     digitalWrite(MDn,LOW);
-    echo();
   }
   else if (GamePad.isRightPressed())
   {
@@ -48,14 +45,12 @@ void Move(){
     digitalWrite(MEp,HIGH);
     digitalWrite(MEn,LOW);
     digitalWrite(MDn,HIGH);
-    echo();
   }
   else{
     digitalWrite(MDp,LOW);
     digitalWrite(MEp,LOW);
     digitalWrite(MEn,LOW);
     digitalWrite(MDn,LOW);
-    echo();
   }
 }
 
