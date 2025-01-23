@@ -11,6 +11,10 @@ Aqui é onde fazemos as definições dos pinos e variaveis usadas no codigo
 #define MEn 7
 long duration;
 int distance;
+/*
+Esse include faz a função de puxar a biblioteca pra que ela faça parte do codigo e possa ser usada e chamada no decorrer do mesmo. !!Lembrete, no arquivo de texto tem o link pra baixar a biblioteca e se ela n for
+incluida na IDE, não é possiver utilizar-lá!!
+*/
 #include <Dabble.h>
 
 int speed = 100,PWMspeed;
